@@ -42,6 +42,29 @@ it, simply add the following line to your Podfile:
 
     pod 'DTFormMenuController', '0.1.1'
 
+#### Dont have a Podfile? 
+
+You can easily update your project to use CocoaPods:
+
+- Install the CocoaPods library:
+```sh
+sudo gem install cocoapods
+```
+- Go to the directory where your __.xcodeproj__ file is
+- Create a new file called __Podfile__
+- Update _Podfile_ with:
+```ruby
+platform :ios, deployment_target: '8.0'
+
+pod 'DTAsyncIO', :git => 'https://github.com/DTHENG/DTAsyncIO.git'
+```
+- Now run this command:
+```sh
+pod install
+```
+- From now on only open the __.xcworkspace__ file in your project _NOT_ __.xcodeproj__
+- Done!
+
 ## Author
 
 DTHENG, fender5289@gmail.com
