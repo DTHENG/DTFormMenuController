@@ -28,10 +28,6 @@
     [super viewDidLoad];
     
     [self registerForKeyboardNotifications];
-    
-    /*[Notifications subscribe:STATUS_BAR_SELECTED :^(NSDictionary *payload) {
-        [self.collectionView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:YES];
-    } :nil];*/
 }
 
 - (void)setFormObjects:(NSArray *)formObjects {

@@ -7,21 +7,34 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "ExampleTextInputFormObject.h"
+#import "SpacerFormObject.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [super setFormObjects:@[
+                            [[SpacerFormObject alloc] initWithOnSelected:nil],
+                            [[ExampleTextInputFormObject alloc] initWithPlaceholder:@"Field #1" onChanged:^(NSString *text) {
+        NSLog(@"field 1 value changed: %@", text);
+    }],
+                            [[ExampleTextInputFormObject alloc] initWithPlaceholder:@"Field #2" onChanged:^(NSString *text) {
+        NSLog(@"field 2 value changed: %@", text);
+    }],
+                            [[ExampleTextInputFormObject alloc] initWithPlaceholder:@"Field #3" onChanged:^(NSString *text) {
+        NSLog(@"field 3 value changed: %@", text);
+    }],
+                            [[ExampleTextInputFormObject alloc] initWithPlaceholder:@"Field #4" onChanged:^(NSString *text) {
+        NSLog(@"field 4 value changed: %@", text);
+    }]]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
 }
 
 @end

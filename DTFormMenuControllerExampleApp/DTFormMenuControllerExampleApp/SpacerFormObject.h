@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  SpacerFormObject.h
 //  DTFormMenuControllerExampleApp
 //
 //  Created by Daniel Thengvall on 3/1/15.
 //  Copyright (c) 2015 DTHENG. All rights reserved.
 //
 
-#import "DTFormViewController.h"
+#import "DTBaseFormObject.h"
 
-@interface ViewController : DTFormViewController
+@interface SpacerFormObject : DTBaseFormObject
 
 @end
-
