@@ -49,8 +49,24 @@ _ExampleTextInputFormObject.h_ [view file](DTFormMenuControllerExampleApp/DTForm
 
 @end
 ```
+- In the implementation of the new class the only required override method is:
 
+_ExampleTextInputFormObject.m_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ExampleTextInputFormObject.m#L18)
+```obj-c
+- (UICollectionViewCell *)toCollectionViewCell:(UICollectionView *)collectionView :(NSIndexPath *)indexPath {
 
+	UICollectionViewCell *exampleCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"example" forIndexPath:indexPath];
+	
+	// Customize cell
+	
+	return exampleCell;
+}
+```
+- Before we can run the code we'll need to add the _ViewController_ to __Main.storyboard__.
+- In the Main storyboard add a new _UICollectionViewController_. 
+- Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to the name of your class.
+- Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- Done!
 
 ## Installation
 
