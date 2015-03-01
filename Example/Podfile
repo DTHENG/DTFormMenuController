@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'DTFormMenuController', :exclusive => true do
+  pod "DTFormMenuController", :path => "../"
+
+  
+end
