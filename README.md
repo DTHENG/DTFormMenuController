@@ -89,7 +89,7 @@ sudo gem install cocoapods
 ```ruby
 platform :ios, deployment_target: '8.0'
 
-pod 'DTAsyncIO', :git => 'https://github.com/DTHENG/DTAsyncIO.git'
+pod 'DTFormMenuController', '0.1.1'
 ```
 - Now run this command:
 ```sh
