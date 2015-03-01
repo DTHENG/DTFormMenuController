@@ -37,6 +37,7 @@ _ViewController.m_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControll
 - In the Main storyboard add a new _UICollectionViewController_. 
 - Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to __DTFormMenuViewController__.
 - Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- In the view controller set the _UICollectionViewCell's_ __Reusable Identifier__ to __"content"__.
 - Form objects are any class that extends __DTBaseFormObject__.
 
 _ExampleTextInputFormObject.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ExampleTextInputFormObject.h)
@@ -66,6 +67,7 @@ _ExampleTextInputFormObject.m_ [view file](DTFormMenuControllerExampleApp/DTForm
 - In the Main storyboard add a new _UICollectionViewController_. 
 - Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to the name of your class.
 - Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- In the view controller set the _UICollectionViewCell's_ __Reusable Identifier__ to __"example"__.
 - Done!
 
 ## Installation
