@@ -31,8 +31,9 @@ _ViewController.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControll
 > __NOTE__ you dont have to execute _setFormObjects_ in the _viewDidLoad_ method, it can be called from anywhere.
 
 - Now that you have your view controller setup you will need to open or create a __Main.storyboard__ file.
-- In the Main storyboard add a new _UICollectionViewController_ in the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to __DTFormMenuViewController__.
-- Now in the view controllers _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- In the Main storyboard add a new _UICollectionViewController_. 
+- Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to __DTFormMenuViewController__.
+- Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
 
 ## Installation
 
