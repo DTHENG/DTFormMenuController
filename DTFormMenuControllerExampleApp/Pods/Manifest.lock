@@ -2,11 +2,11 @@ PODS:
   - DTFormMenuController (0.1.1)
 
 DEPENDENCIES:
-  - DTFormMenuController (from `https://github.com/DTHENG/DTFormMenuController.git`)
+  - DTFormMenuController (from `/Users/danielthengvall/DTFormMenuController/`)
 
 EXTERNAL SOURCES:
   DTFormMenuController:
-    :git: https://github.com/DTHENG/DTFormMenuController.git
+    :path: /Users/danielthengvall/DTFormMenuController/
 
 CHECKOUT OPTIONS:
   DTFormMenuController:

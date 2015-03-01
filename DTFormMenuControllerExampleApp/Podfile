@@ -1,4 +1,4 @@
 platform :ios, deployment_target: '8.0'
 
-pod 'DTFormMenuController', :git => 'https://github.com/DTHENG/DTFormMenuController.git'
-
+#pod 'DTFormMenuController', :git => 'https://github.com/DTHENG/DTFormMenuController.git'
+pod 'DTFormMenuController', :path => '/Users/danielthengvall/DTFormMenuController/'
