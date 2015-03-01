@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DTFormMenuController"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Utility for creating functional forms in iOS"
   s.description      = <<-DESC
 # DTForm Menu Controller
