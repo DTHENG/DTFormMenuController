@@ -1,0 +1,3 @@
+platform :ios, deployment_target: '8.0'
+
+pod 'DTFormMenuController', :git => 'https://github.com/DTHENG/DTFormMenuController.git'
