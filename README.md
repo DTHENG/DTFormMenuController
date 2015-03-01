@@ -7,7 +7,32 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- Start by creating a new class that extends the __DTFormViewController__
+
+_ViewController.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ViewController.h)
+```obj-c
+#import "DTFormViewController.h"
+
+@interface ViewController : DTFormViewController
+
+@end
+```
+- Then in the implementation file you'll initialize the form with its "objects"
+```obj-c
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	[super setFormObjects:@[
+		
+		// Form Objects
+	]];
+}
+```
+	__NOTE__ you dont have to execute _setFormObjects_ in the _viewDidLoad_ method, it can be called from anywhere.
+
+- Now that you have your view controller setup you will need to open or create a __Main.storyboard__ file.
+- In the Main storyboard add a new _UICollectionViewController_ in the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to __DTFormMenuViewController__.
+- Now in the view controllers _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
 
 ## Installation
 
