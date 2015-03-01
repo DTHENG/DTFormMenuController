@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 DTFormMenuController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "DTFormMenuController"
+    pod 'DTFormMenuController', '0.1.1'
 
 ## Author
 
