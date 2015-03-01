@@ -24,7 +24,7 @@ Utility for creating functional forms in iOS.
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = '*.{h,m}'
+  s.source_files = '**/*.{h,m}'
   s.resource_bundles = {
     'DTFormMenuController' => ['Pod/Assets/*.png']
   }
