@@ -7,7 +7,7 @@
 
 ## Usage
 
-- Start by creating a new class that extends the __DTFormViewController__
+- Start by creating a new class that extends the __DTFormViewController__:
 
 _ViewController.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ViewController.h)
 ```obj-c
@@ -17,14 +17,17 @@ _ViewController.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControll
 
 @end
 ```
-- Then in the implementation file you'll initialize the form with its "objects"
+- Then in the implementation file you'll initialize the form with its "objects":
+
+_ViewController.m_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ViewController.m)
 ```obj-c
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
 	[super setFormObjects:@[
 		
-		// Form Objects
+		// Array of objects that extend DTBaseFormObject
+		
 	]];
 }
 ```
@@ -34,6 +37,20 @@ _ViewController.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControll
 - In the Main storyboard add a new _UICollectionViewController_. 
 - Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to __DTFormMenuViewController__.
 - Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- Form objects are any class that extends __DTBaseFormObject__.
+
+_ExampleTextInputFormObject.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ExampleTextInputFormObject.h)
+```obj-c
+#import "DTBaseFormObject.h"
+
+@interface ExampleTextInputFormObject : DTBaseFormObject
+
+- (ExampleTextInputFormObject *)initWithPlaceholder:(NSString *)placeholderText onChanged:(void (^)(NSString *text))onChangedBehavior;
+
+@end
+```
+
+
 
 ## Installation
 
