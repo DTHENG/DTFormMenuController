@@ -176,8 +176,8 @@
     NSUInteger s = (NSUInteger)p.section;
     NSUInteger r = (NSUInteger)p.row;
     for (NSUInteger i = s; i > 0; --i) {
-        for (NSUInteger j = i == s ? r : [objects[i-1] numInputFields]; j > 0;) {
-            return [NSIndexPath indexPathForRow:j-1 inSection:i - (i == s ? 0 : 1)];
+        for (NSUInteger j = i == s ? r : [objects[i] numInputFields]; j > 0;) {
+            return [NSIndexPath indexPathForRow:j-1 inSection:i];
         }
     }
     return nil;
