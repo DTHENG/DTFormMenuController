@@ -20,6 +20,7 @@
     NSArray *objects;
     BOOL hasFormMenu;
     BOOL viewDidLoad;
+	UIActivityIndicatorView *indicator;	
 }
 
 
@@ -29,6 +30,12 @@
     [super viewDidLoad];
     
     [self registerForKeyboardNotifications];
+    
+            indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        indicator.center = CGPointMake(self.view.frame.size.width / 2, (self.view.frame.size.height / 2) - 40);
+        indicator.color = [self getForegroundColor];
+        [indicator startAnimating];
+        [self.view addSubview:indicator];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -60,6 +67,9 @@
         [self.view addSubview:formMenu.view];
         hasFormMenu = YES;
     }
+    
+    [indicator stopAnimating];
+    indicator.hidden = YES;
     
     if (viewDidLoad) {
     	[self.collectionView reloadData];
