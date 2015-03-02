@@ -30,13 +30,13 @@
     return 0;
 }
 
-- (void)selectInputField:(int)index {
+- (void)selectInputField:(NSUInteger)index {
 }
 
-- (void)selectedInputField:(void (^)(int index))onSelected {
+- (void)selectedInputField:(void (^)(NSUInteger index))onSelected {
 }
 
-- (BOOL)inputSelected:(int)index {
+- (BOOL)inputSelected:(NSUInteger)index {
     return NO;
 }
 

@@ -13,9 +13,9 @@
 - (UICollectionViewCell *)toCollectionViewCell:(UICollectionView *)collectionView :(NSIndexPath *)indexPath;
 - (float)getHeight;
 - (NSUInteger)numInputFields;
-- (void)selectInputField:(int)index;
-- (void)selectedInputField:(void (^)(int index))onSelected;
-- (BOOL)inputSelected:(int)index;
+- (void)selectInputField:(NSUInteger)index;
+- (void)selectedInputField:(void (^)(NSUInteger index))onSelected;
+- (BOOL)inputSelected:(NSUInteger)index;
 - (void (^)())getCellSelectedBehavior;
 
 - (DTBaseFormObject *)initWithOnSelected:(void (^)())onSelected;
