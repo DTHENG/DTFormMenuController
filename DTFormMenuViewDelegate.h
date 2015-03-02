@@ -10,7 +10,9 @@
 
 @protocol DTFormMenuViewDelegate <NSObject>
 
-@required
+- (UIColor *)formMenuView:(id)sender foregroundColor:(float)alpha;
+- (UIColor *)formMenuView:(id)sender inactiveColor:(float)alpha;
+- (UIColor *)formMenuView:(id)sender backgroundColor:(float)alpha;
 - (BOOL)formMenuView:(id)sender selectable:(int)button;
 - (void)formMenuView:(id)sender selected:(int)button;
 

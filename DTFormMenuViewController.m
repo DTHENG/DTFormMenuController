@@ -43,10 +43,10 @@ static int height = 50;
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *content = [collectionView dequeueReusableCellWithReuseIdentifier:@"content" forIndexPath:indexPath];
     
-    content.backgroundColor = [UIColor whiteColor];
+    content.backgroundColor = [_delegate formMenuView:self backgroundColor:1.f];
     
     UIView *border = [[UIView alloc] initWithFrame:CGRectMake(0, 0, content.frame.size.width, 0.5)];
-    border.backgroundColor = [UIColor lightGrayColor];
+    border.backgroundColor = [_delegate formMenuView:self inactiveColor:1.f];
     [content addSubview:border];
     
     if ([content viewWithTag:2] != nil) {
@@ -55,7 +55,7 @@ static int height = 50;
     
     switch (indexPath.row) {
         case 0: {
-            DTPreviousIcon *prev = [[DTPreviousIcon alloc] initWithColors:[UIColor whiteColor] foreground:[_delegate formMenuView:self selectable:(int) indexPath.row] ? [UIColor blackColor] : [UIColor lightGrayColor] frame:CGRectMake(12, 12, 23, 23)];
+            DTPreviousIcon *prev = [[DTPreviousIcon alloc] initWithColors:[UIColor whiteColor] foreground:[_delegate formMenuView:self selectable:(int) indexPath.row] ? [_delegate formMenuView:self foregroundColor:1.f] : [_delegate formMenuView:self inactiveColor:1.f] frame:CGRectMake(12, 12, 23, 23)];
             prev.backgroundColor = [UIColor clearColor];
             prev.tag = 2;
             [content addSubview:prev];

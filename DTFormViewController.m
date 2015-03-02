@@ -142,6 +142,30 @@
     }
 }
 
+- (UIColor *)formMenuView:(id)sender foregroundColor:(float)alpha {
+	return [self getForegroundColor];
+}
+
+- (UIColor *)formMenuView:(id)sender inactiveColor:(float)alpha {
+	return [self getInactiveColor];
+}
+
+- (UIColor *)formMenuView:(id)sender backgroundColor:(float)alpha {
+	return [self getBackgroundColor];
+}
+
+- (UIColor *)getBackgroundColor {
+	return [UIColor whiteColor];
+}
+
+- (UIColor *)getInactiveColor {
+	return [UIColor lightGrayColor];
+}
+
+- (UIColor *)getForegroundColor {
+	return [UIColor blackColor];
+}
+
 - (NSIndexPath *)getPositionOfSelectedInputField {
     for (NSUInteger i = 0; i < objects.count; i++) {
         if ([objects[i] numInputFields] > 0) {
