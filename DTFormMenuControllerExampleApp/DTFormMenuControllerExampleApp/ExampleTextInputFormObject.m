@@ -51,15 +51,15 @@
     return 1;
 }
 
-- (void)selectInputField:(int)index {
+- (void)selectInputField:(NSUInteger)index {
     [field becomeFirstResponder];
 }
 
-- (void)selectedInputField:(void (^)(int index))onSelectedBehavior {
+- (void)selectedInputField:(void (^)(NSUInteger index))onSelectedBehavior {
     onSelected = onSelectedBehavior;
 }
 
-- (BOOL)inputSelected:(int)index {
+- (BOOL)inputSelected:(NSUInteger)index {
     return field.isFirstResponder;
 }
 
