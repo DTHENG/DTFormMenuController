@@ -12,4 +12,8 @@
 
 - (void)setFormObjects:(NSArray *)formObjects;
 
+- (UIColor *)getBackgroundColor;
+- (UIColor *)getInactiveColor;
+- (UIColor *)getForegroundColor;
+
 @end
