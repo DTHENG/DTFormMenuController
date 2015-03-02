@@ -75,7 +75,7 @@ _ExampleTextInputFormObject.m_ [view file](DTFormMenuControllerExampleApp/DTForm
 DTFormMenuController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-	pod 'DTFormMenuController', '0.1.6'
+	pod 'DTFormMenuController', '0.1.7'
 
 #### Dont have a Podfile? 
 
@@ -91,7 +91,7 @@ sudo gem install cocoapods
 ```ruby
 platform :ios, deployment_target: '8.0'
 
-pod 'DTFormMenuController', '0.1.6'
+pod 'DTFormMenuController', '0.1.7'
 ```
 - Now run this command:
 ```sh
