@@ -142,6 +142,30 @@
     }
 }
 
+- (UIColor *)formMenuView:(id)sender foregroundColor:(float)alpha {
+	return [self getForegroundColor];
+}
+
+- (UIColor *)formMenuView:(id)sender inactiveColor:(float)alpha {
+	return [self getInactiveColor];
+}
+
+- (UIColor *)formMenuView:(id)sender backgroundColor:(float)alpha {
+	return [self getBackgroundColor];
+}
+
+- (UIColor *)getBackgroundColor {
+	return [UIColor whiteColor];
+}
+
+- (UIColor *)getInactiveColor {
+	return [UIColor lightGrayColor];
+}
+
+- (UIColor *)getForegroundColor {
+	return [UIColor blackColor];
+}
+
 - (NSIndexPath *)getPositionOfSelectedInputField {
     for (NSUInteger i = 0; i < objects.count; i++) {
         if ([objects[i] numInputFields] > 0) {
@@ -176,8 +200,8 @@
     NSUInteger s = (NSUInteger)p.section;
     NSUInteger r = (NSUInteger)p.row;
     for (NSUInteger i = s; i > 0; --i) {
-        for (NSUInteger j = i == s ? r : [objects[i-1] numInputFields]; j > 0;) {
-            return [NSIndexPath indexPathForRow:j-1 inSection:i - (i == s ? 0 : 1)];
+        for (NSUInteger j = i == s ? r : [objects[i] numInputFields]; j > 0;) {
+            return [NSIndexPath indexPathForRow:j-1 inSection:i];
         }
     }
     return nil;
