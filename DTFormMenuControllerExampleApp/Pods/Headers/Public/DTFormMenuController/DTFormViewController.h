@@ -1,1 +1,1 @@
-../../../DTFormMenuController/Example/Classes/DTFormViewController.h
+../../../DTFormMenuController/DTFormViewController.h

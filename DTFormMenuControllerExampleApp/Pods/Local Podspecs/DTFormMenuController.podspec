@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DTFormMenuController"
-  s.version          = "0.1.1"
+  s.version          = "0.1.4"
   s.summary          = "Utility for creating functional forms in iOS"
   s.description      = <<-DESC
 # DTForm Menu Controller
@@ -24,7 +24,7 @@ Utility for creating functional forms in iOS.
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = '**/*.{h,m}'
+  s.source_files = '*.{h,m}'
   s.resource_bundles = {
     'DTFormMenuController' => ['Pod/Assets/*.png']
   }

@@ -1,19 +1,19 @@
 PODS:
-  - DTFormMenuController (0.1.1)
+  - DTFormMenuController (0.1.4)
 
 DEPENDENCIES:
-  - DTFormMenuController (from `/Users/danielthengvall/DTFormMenuController/`)
+  - DTFormMenuController (from `https://github.com/DTHENG/DTFormMenuController.git`)
 
 EXTERNAL SOURCES:
   DTFormMenuController:
-    :path: /Users/danielthengvall/DTFormMenuController/
+    :git: https://github.com/DTHENG/DTFormMenuController.git
 
 CHECKOUT OPTIONS:
   DTFormMenuController:
-    :commit: 116d9a250c38336e2cbb2d269151e15feb0851d5
+    :commit: 2f6bcf8edfb16c8a27987ee96a8fb4bfc77000f7
     :git: https://github.com/DTHENG/DTFormMenuController.git
 
 SPEC CHECKSUMS:
-  DTFormMenuController: c410a6adc618002495a3ff024437e396c502768a
+  DTFormMenuController: 9ae9f14c2d714946320ec97e7958e000e9c64db0
 
 COCOAPODS: 0.35.0
