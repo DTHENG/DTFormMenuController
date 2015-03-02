@@ -11,7 +11,7 @@
 @implementation ExampleTextInputFormObject {
     NSString *placeholder;
     void (^onChanged)(NSString *);
-    void (^onSelected)(int);
+    void (^onSelected)(NSUInteger);
     UITextField *field;
 }
 

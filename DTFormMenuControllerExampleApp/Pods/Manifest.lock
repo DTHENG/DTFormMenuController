@@ -1,5 +1,5 @@
 PODS:
-  - DTFormMenuController (0.1.4)
+  - DTFormMenuController (0.1.7)
 
 DEPENDENCIES:
   - DTFormMenuController (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DTFormMenuController: 413cd1c755e34365805d0f580ef840e53c893ad2
+  DTFormMenuController: bb4282ebfba1807d80acf88e2f6cc94ff6561cb9
 
 COCOAPODS: 0.36.0.rc.1

@@ -7,223 +7,241 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12854497E1C23527D59A1FAA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4019C565CF50D8DB01D632EF /* Pods-dummy.m */; };
-		22007C55589BF59B1E86A183 /* DTBaseFormObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3045D7FC9B3A85B615580D7A /* DTBaseFormObject.h */; };
-		2B0711B75277B7DCD9616F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C3BF777BB080141A8381D8 /* Foundation.framework */; };
-		32FF55FECAB881F2991CD2D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C3BF777BB080141A8381D8 /* Foundation.framework */; };
-		38E672B561EC89B75E8E106A /* DTFormMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44220E5E57397AA94E86DF6 /* DTFormMenuViewController.m */; };
-		410600B1D09DE3E06EA69D13 /* DTFormMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A306CCD7ABF346F3D652B789 /* DTFormMenuViewController.h */; };
-		58FAEFC6F3DD50AE49C53031 /* DTBaseIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF8BE0B69A67A5890A9D6ED /* DTBaseIcon.h */; };
-		76B0A21A7174AD66A26292EE /* DTPreviousIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B3A06CB238D75097446F2E /* DTPreviousIcon.h */; };
-		7C032A4F7F5DF576E44F8C34 /* DTFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF43471C578F53828BF81D /* DTFormViewController.m */; };
-		8D2B7B0A5FB65318D54F1F5E /* DTFormMenuViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 841703EC418C30E205E7B3AF /* DTFormMenuViewDelegate.h */; };
-		8F7346DC088B21557F24190B /* Pods-DTFormMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0524A99BDAF95377CF5E8FD3 /* Pods-DTFormMenuController-dummy.m */; };
-		93799A6DF258C37236A33151 /* DTBaseIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = C45E19F503289FE8A591183B /* DTBaseIcon.m */; };
-		B8BB1669235B597BD354620E /* DTBaseFormObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 030F67CE148241012A562FDB /* DTBaseFormObject.m */; };
-		E122BA49CCCEAE0F26106964 /* DTPreviousIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB5D8F7F6F7287797EAF4D /* DTPreviousIcon.m */; };
-		EC50B787153E12CE23B64AED /* DTFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FC47871E8BF2AE3312439C /* DTFormViewController.h */; };
+		0829A8B1FA3F7323858A5F88 /* DTFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F8A20BCDB7C7ACD4C535 /* DTFormViewController.m */; };
+		20B20C85254AA92CD480AD99 /* DTBaseFormObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB7E9A91F70DF868BB201AF /* DTBaseFormObject.h */; };
+		2B21F888FC6F7EE502309371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB5393DD82D630723BECD22 /* Foundation.framework */; };
+		3E6531B2297EC9EEAB264583 /* Pods-DTFormMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C6A208D4CFFFCFCCD0053 /* Pods-DTFormMenuController-dummy.m */; };
+		400B91BE17F36E8AED41EF06 /* DTBaseIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ED9D76EFF3B883549CB7FF /* DTBaseIcon.h */; };
+		7841FFED8200EFD0220230EB /* DTBaseFormObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F1370428DA2FD3999A97D746 /* DTBaseFormObject.m */; };
+		7B59BD8FBD698C82DB82E01F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9FC1C854A2FC03406B420B /* Pods-dummy.m */; };
+		7B8DD8BB2D7847079BE91298 /* DTFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C51AC657E9F6B7576046890C /* DTFormViewController.h */; };
+		97F3E6AF1FA9B7D36155BDD1 /* DTPreviousIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6891A75C67DF64F4766BBD84 /* DTPreviousIcon.h */; };
+		D467DAE4CC6DC1564A00CCDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB5393DD82D630723BECD22 /* Foundation.framework */; };
+		DE05FCDB1EAD6195A1A110F6 /* DTFormMenuViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 173D8A005CEAC1089C7ADCAD /* DTFormMenuViewDelegate.h */; };
+		E19747745052564BA4BEDBF5 /* DTFormMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66257357E9FBA6F8B0236225 /* DTFormMenuViewController.m */; };
+		E5F9A005050F7D06847B09A4 /* DTPreviousIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077A30959FE183D7D576BE /* DTPreviousIcon.m */; };
+		F675C7981C08F951048638D8 /* DTBaseIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB47F98116859C58651B222 /* DTBaseIcon.m */; };
+		FC4D311D670B8B3765B6ED97 /* DTFormMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEC2B8F92F722339409E9BD /* DTFormMenuViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A08F45754549478B65E8EF7 /* PBXContainerItemProxy */ = {
+		1C0A0B792F2694C37483D482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FDD83FD801A84652E8829CB /* Project object */;
+			containerPortal = 1BDCA8B1DA185194E744BE4F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F39714E4534F4D110775FE53;
+			remoteGlobalIDString = 299D35E50E47670FEAA2BD66;
 			remoteInfo = "Pods-DTFormMenuController";
 		};
-		AE3679768338AB9C7F1E94BD /* PBXContainerItemProxy */ = {
+		A2A3BA547791E245B107016E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FDD83FD801A84652E8829CB /* Project object */;
+			containerPortal = 1BDCA8B1DA185194E744BE4F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E6238EDF115A5C674CDCC05;
+			remoteGlobalIDString = 2D93BE17777623891E5A015E;
 			remoteInfo = "Pods-DTFormMenuController-DTFormMenuController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030F67CE148241012A562FDB /* DTBaseFormObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTBaseFormObject.m; sourceTree = "<group>"; };
-		0524A99BDAF95377CF5E8FD3 /* Pods-DTFormMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTFormMenuController-dummy.m"; sourceTree = "<group>"; };
-		09C894F7CC01E73847993089 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		18D328C8C91D1EB32BA6BE30 /* libPods-DTFormMenuController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTFormMenuController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3045D7FC9B3A85B615580D7A /* DTBaseFormObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBaseFormObject.h; sourceTree = "<group>"; };
-		30C3BF777BB080141A8381D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34A8A863108C0A3E99A8A1CB /* Pods-DTFormMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTFormMenuController.xcconfig"; sourceTree = "<group>"; };
-		35C6941EADC823AEEEF2A4D0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3E9816D15F407E9387F71F9D /* Pods-DTFormMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTFormMenuController-prefix.pch"; sourceTree = "<group>"; };
-		4019C565CF50D8DB01D632EF /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		49F94B7CCF0650415B9FBC44 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EF8BE0B69A67A5890A9D6ED /* DTBaseIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBaseIcon.h; sourceTree = "<group>"; };
-		5964548B4187E8553FACDBB1 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		62BB5D8F7F6F7287797EAF4D /* DTPreviousIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTPreviousIcon.m; sourceTree = "<group>"; };
-		6E9C1EEE1A649D9B2E43D208 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		7A9E3CB34AFE8D3EC311BF96 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		841703EC418C30E205E7B3AF /* DTFormMenuViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTFormMenuViewDelegate.h; sourceTree = "<group>"; };
-		87B3A06CB238D75097446F2E /* DTPreviousIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTPreviousIcon.h; sourceTree = "<group>"; };
-		8DD81B1E9EFE0F95DA8E2DE9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8FEF43471C578F53828BF81D /* DTFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTFormViewController.m; sourceTree = "<group>"; };
-		97E60925A4346356A5614FA7 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A0AE337BE91037694F7F97A2 /* Pods-DTFormMenuController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTFormMenuController-Private.xcconfig"; sourceTree = "<group>"; };
-		A306CCD7ABF346F3D652B789 /* DTFormMenuViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTFormMenuViewController.h; sourceTree = "<group>"; };
-		A44220E5E57397AA94E86DF6 /* DTFormMenuViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTFormMenuViewController.m; sourceTree = "<group>"; };
-		C45E19F503289FE8A591183B /* DTBaseIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTBaseIcon.m; sourceTree = "<group>"; };
-		D9FC47871E8BF2AE3312439C /* DTFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTFormViewController.h; sourceTree = "<group>"; };
-		E828D6CDE772D90E9286E718 /* DTFormMenuController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTFormMenuController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC5058AFD256C79C7F0009C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		0CB47F98116859C58651B222 /* DTBaseIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTBaseIcon.m; sourceTree = "<group>"; };
+		0E64E96AA507E959F334E4AB /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		0F4C8EF709D93E92F0F91ED3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		173D8A005CEAC1089C7ADCAD /* DTFormMenuViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTFormMenuViewDelegate.h; sourceTree = "<group>"; };
+		18C4EBCB7DF87A8DC2D6A0AB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23E5161159F624B0EC610921 /* Pods-DTFormMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTFormMenuController-prefix.pch"; sourceTree = "<group>"; };
+		2AB5393DD82D630723BECD22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2CEC2B8F92F722339409E9BD /* DTFormMenuViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTFormMenuViewController.h; sourceTree = "<group>"; };
+		32077A30959FE183D7D576BE /* DTPreviousIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTPreviousIcon.m; sourceTree = "<group>"; };
+		3EC7710B831D7E240109A9F1 /* Pods-DTFormMenuController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTFormMenuController-Private.xcconfig"; sourceTree = "<group>"; };
+		4A9FC1C854A2FC03406B420B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		4FB7E9A91F70DF868BB201AF /* DTBaseFormObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBaseFormObject.h; sourceTree = "<group>"; };
+		54B89C7B1A652B64CA87B124 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5B3C6A208D4CFFFCFCCD0053 /* Pods-DTFormMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTFormMenuController-dummy.m"; sourceTree = "<group>"; };
+		66257357E9FBA6F8B0236225 /* DTFormMenuViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTFormMenuViewController.m; sourceTree = "<group>"; };
+		6891A75C67DF64F4766BBD84 /* DTPreviousIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTPreviousIcon.h; sourceTree = "<group>"; };
+		68E80509CC4EACA74DA4D89B /* libPods-DTFormMenuController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTFormMenuController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE6A26FBBF903636443D215 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		7630B2B40F2BDF7A0143F7E9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83C9B6C6224C57B1F237D404 /* Pods-DTFormMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTFormMenuController.xcconfig"; sourceTree = "<group>"; };
+		8493B1F56EA05BA8E8D2F980 /* DTFormMenuController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTFormMenuController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51AC657E9F6B7576046890C /* DTFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTFormViewController.h; sourceTree = "<group>"; };
+		D6A5F8A20BCDB7C7ACD4C535 /* DTFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTFormViewController.m; sourceTree = "<group>"; };
+		E8ED9D76EFF3B883549CB7FF /* DTBaseIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTBaseIcon.h; sourceTree = "<group>"; };
+		EEB6B96EBAB9BC2A10A1A503 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		F1370428DA2FD3999A97D746 /* DTBaseFormObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTBaseFormObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		138AB4FB48AB12B71B7120A7 /* Frameworks */ = {
+		250B84F45BFA863E8C02F914 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D467DAE4CC6DC1564A00CCDF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		393BBA2BF83C77E958182E6F /* Frameworks */ = {
+		7D0020C39AF0C6AD9E4C4194 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0711B75277B7DCD9616F88 /* Foundation.framework in Frameworks */,
+				2B21F888FC6F7EE502309371 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		393EE89F00EC917478A69CD6 /* Frameworks */ = {
+		C8CF058B0762D38E386A934D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FF55FECAB881F2991CD2D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		391CAF717834EB569143BA68 /* Products */ = {
+		06518DAE76127B0C9CBD6360 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E828D6CDE772D90E9286E718 /* DTFormMenuController.bundle */,
-				49F94B7CCF0650415B9FBC44 /* libPods.a */,
-				18D328C8C91D1EB32BA6BE30 /* libPods-DTFormMenuController.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		65CAC871317E55C7E47A4BC5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8DD81B1E9EFE0F95DA8E2DE9 /* Pods-acknowledgements.markdown */,
-				5964548B4187E8553FACDBB1 /* Pods-acknowledgements.plist */,
-				4019C565CF50D8DB01D632EF /* Pods-dummy.m */,
-				09C894F7CC01E73847993089 /* Pods-environment.h */,
-				97E60925A4346356A5614FA7 /* Pods-resources.sh */,
-				6E9C1EEE1A649D9B2E43D208 /* Pods.debug.xcconfig */,
-				7A9E3CB34AFE8D3EC311BF96 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		94F3C19EAF2E939A176AD187 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				34A8A863108C0A3E99A8A1CB /* Pods-DTFormMenuController.xcconfig */,
-				A0AE337BE91037694F7F97A2 /* Pods-DTFormMenuController-Private.xcconfig */,
-				0524A99BDAF95377CF5E8FD3 /* Pods-DTFormMenuController-dummy.m */,
-				3E9816D15F407E9387F71F9D /* Pods-DTFormMenuController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "DTFormMenuControllerExampleApp/Pods/Target Support Files/Pods-DTFormMenuController";
-			sourceTree = "<group>";
-		};
-		9C2775CE4A525A3185AACD26 = {
-			isa = PBXGroup;
-			children = (
-				35C6941EADC823AEEEF2A4D0 /* Podfile */,
-				B0BE153D85FA11CE0E4E14F4 /* Development Pods */,
-				C304FDCE65C82E49F34AECBB /* Frameworks */,
-				391CAF717834EB569143BA68 /* Products */,
-				F7398E48CB6EE3BF18D7A15E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B0BE153D85FA11CE0E4E14F4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EE57F80E8184D53C004ED54D /* DTFormMenuController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C10A533F0A8C023E6436832E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				30C3BF777BB080141A8381D8 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C304FDCE65C82E49F34AECBB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C10A533F0A8C023E6436832E /* iOS */,
+				98A439B911BA42F9408098EC /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EE57F80E8184D53C004ED54D /* DTFormMenuController */ = {
+		10620DB3B234E8FEDFAE62DB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3045D7FC9B3A85B615580D7A /* DTBaseFormObject.h */,
-				030F67CE148241012A562FDB /* DTBaseFormObject.m */,
-				4EF8BE0B69A67A5890A9D6ED /* DTBaseIcon.h */,
-				C45E19F503289FE8A591183B /* DTBaseIcon.m */,
-				A306CCD7ABF346F3D652B789 /* DTFormMenuViewController.h */,
-				A44220E5E57397AA94E86DF6 /* DTFormMenuViewController.m */,
-				841703EC418C30E205E7B3AF /* DTFormMenuViewDelegate.h */,
-				D9FC47871E8BF2AE3312439C /* DTFormViewController.h */,
-				8FEF43471C578F53828BF81D /* DTFormViewController.m */,
-				87B3A06CB238D75097446F2E /* DTPreviousIcon.h */,
-				62BB5D8F7F6F7287797EAF4D /* DTPreviousIcon.m */,
-				94F3C19EAF2E939A176AD187 /* Support Files */,
+				22EFF79B1D2FC3258428F893 /* DTFormMenuController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1A8222CE4C2BEC9CB7A5183E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7FC157CF17BA9F836D22238 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22EFF79B1D2FC3258428F893 /* DTFormMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				4FB7E9A91F70DF868BB201AF /* DTBaseFormObject.h */,
+				F1370428DA2FD3999A97D746 /* DTBaseFormObject.m */,
+				E8ED9D76EFF3B883549CB7FF /* DTBaseIcon.h */,
+				0CB47F98116859C58651B222 /* DTBaseIcon.m */,
+				2CEC2B8F92F722339409E9BD /* DTFormMenuViewController.h */,
+				66257357E9FBA6F8B0236225 /* DTFormMenuViewController.m */,
+				173D8A005CEAC1089C7ADCAD /* DTFormMenuViewDelegate.h */,
+				C51AC657E9F6B7576046890C /* DTFormViewController.h */,
+				D6A5F8A20BCDB7C7ACD4C535 /* DTFormViewController.m */,
+				6891A75C67DF64F4766BBD84 /* DTPreviousIcon.h */,
+				32077A30959FE183D7D576BE /* DTPreviousIcon.m */,
+				D4F12DBFD0635C72723AE3E9 /* Support Files */,
 			);
 			name = DTFormMenuController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F7398E48CB6EE3BF18D7A15E /* Targets Support Files */ = {
+		98A439B911BA42F9408098EC /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				65CAC871317E55C7E47A4BC5 /* Pods */,
+				2AB5393DD82D630723BECD22 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A7FC157CF17BA9F836D22238 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7630B2B40F2BDF7A0143F7E9 /* Pods-acknowledgements.markdown */,
+				6AE6A26FBBF903636443D215 /* Pods-acknowledgements.plist */,
+				4A9FC1C854A2FC03406B420B /* Pods-dummy.m */,
+				EEB6B96EBAB9BC2A10A1A503 /* Pods-environment.h */,
+				0E64E96AA507E959F334E4AB /* Pods-resources.sh */,
+				54B89C7B1A652B64CA87B124 /* Pods.debug.xcconfig */,
+				0BC5058AFD256C79C7F0009C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		AC693B054752E6B91FC35C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8493B1F56EA05BA8E8D2F980 /* DTFormMenuController.bundle */,
+				0F4C8EF709D93E92F0F91ED3 /* libPods.a */,
+				68E80509CC4EACA74DA4D89B /* libPods-DTFormMenuController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E1394E609C04A09184DD91 = {
+			isa = PBXGroup;
+			children = (
+				18C4EBCB7DF87A8DC2D6A0AB /* Podfile */,
+				10620DB3B234E8FEDFAE62DB /* Development Pods */,
+				06518DAE76127B0C9CBD6360 /* Frameworks */,
+				AC693B054752E6B91FC35C2C /* Products */,
+				1A8222CE4C2BEC9CB7A5183E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4F12DBFD0635C72723AE3E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C9B6C6224C57B1F237D404 /* Pods-DTFormMenuController.xcconfig */,
+				3EC7710B831D7E240109A9F1 /* Pods-DTFormMenuController-Private.xcconfig */,
+				5B3C6A208D4CFFFCFCCD0053 /* Pods-DTFormMenuController-dummy.m */,
+				23E5161159F624B0EC610921 /* Pods-DTFormMenuController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "DTFormMenuControllerExampleApp/Pods/Target Support Files/Pods-DTFormMenuController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DD25B6C27A88D924C1FA5609 /* Headers */ = {
+		0B953385DCE58B79843AA90C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22007C55589BF59B1E86A183 /* DTBaseFormObject.h in Headers */,
-				58FAEFC6F3DD50AE49C53031 /* DTBaseIcon.h in Headers */,
-				410600B1D09DE3E06EA69D13 /* DTFormMenuViewController.h in Headers */,
-				8D2B7B0A5FB65318D54F1F5E /* DTFormMenuViewDelegate.h in Headers */,
-				EC50B787153E12CE23B64AED /* DTFormViewController.h in Headers */,
-				76B0A21A7174AD66A26292EE /* DTPreviousIcon.h in Headers */,
+				20B20C85254AA92CD480AD99 /* DTBaseFormObject.h in Headers */,
+				400B91BE17F36E8AED41EF06 /* DTBaseIcon.h in Headers */,
+				FC4D311D670B8B3765B6ED97 /* DTFormMenuViewController.h in Headers */,
+				DE05FCDB1EAD6195A1A110F6 /* DTFormMenuViewDelegate.h in Headers */,
+				7B8DD8BB2D7847079BE91298 /* DTFormViewController.h in Headers */,
+				97F3E6AF1FA9B7D36155BDD1 /* DTPreviousIcon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7E6238EDF115A5C674CDCC05 /* Pods-DTFormMenuController-DTFormMenuController */ = {
+		299D35E50E47670FEAA2BD66 /* Pods-DTFormMenuController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C6C1D2FC9128EA437B70FAA /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController-DTFormMenuController" */;
+			buildConfigurationList = 2E716F15B8AABD4760F873E4 /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController" */;
 			buildPhases = (
-				8C2BDFC3B1E5E23B3273E5C2 /* Sources */,
-				138AB4FB48AB12B71B7120A7 /* Frameworks */,
-				018FE4F150EA26C5D7D494C4 /* Resources */,
+				7EFEA18D168E67B9BA4B1422 /* Sources */,
+				7D0020C39AF0C6AD9E4C4194 /* Frameworks */,
+				0B953385DCE58B79843AA90C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8B51AD0D5E3DB5FEBC917F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTFormMenuController";
+			productName = "Pods-DTFormMenuController";
+			productReference = 68E80509CC4EACA74DA4D89B /* libPods-DTFormMenuController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2D93BE17777623891E5A015E /* Pods-DTFormMenuController-DTFormMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C268ED7DBCF569EBF64644C3 /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController-DTFormMenuController" */;
+			buildPhases = (
+				D3CA7F2997ED49397663A878 /* Sources */,
+				C8CF058B0762D38E386A934D /* Frameworks */,
+				F707612BF007558EF68C8EB1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -231,73 +249,55 @@
 			);
 			name = "Pods-DTFormMenuController-DTFormMenuController";
 			productName = "Pods-DTFormMenuController-DTFormMenuController";
-			productReference = E828D6CDE772D90E9286E718 /* DTFormMenuController.bundle */;
+			productReference = 8493B1F56EA05BA8E8D2F980 /* DTFormMenuController.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		C058A7C017735BACB1320782 /* Pods */ = {
+		F42F1258DF16A262CC28FCF8 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CDE4AA098B5270522189208 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = A6A4F0EB2AE5A3ECF9E2222D /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				BCDA15698C2760B20F9DF8C9 /* Sources */,
-				393EE89F00EC917478A69CD6 /* Frameworks */,
+				B33EE70F74D7B8D750C5CD88 /* Sources */,
+				250B84F45BFA863E8C02F914 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B59711710C189D7517B00577 /* PBXTargetDependency */,
+				F739B5DA9F5A74AC1F8C0688 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 49F94B7CCF0650415B9FBC44 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F39714E4534F4D110775FE53 /* Pods-DTFormMenuController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 823A0526F11658DB671D1F3F /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController" */;
-			buildPhases = (
-				ED6564F360DCF6681C9F2385 /* Sources */,
-				393BBA2BF83C77E958182E6F /* Frameworks */,
-				DD25B6C27A88D924C1FA5609 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5FC33A51DFB7525409D00DB1 /* PBXTargetDependency */,
-			);
-			name = "Pods-DTFormMenuController";
-			productName = "Pods-DTFormMenuController";
-			productReference = 18D328C8C91D1EB32BA6BE30 /* libPods-DTFormMenuController.a */;
+			productReference = 0F4C8EF709D93E92F0F91ED3 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5FDD83FD801A84652E8829CB /* Project object */ = {
+		1BDCA8B1DA185194E744BE4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 73AF10B1E092FDA659901D90 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = D448541050F7CC5C4A4B243D /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9C2775CE4A525A3185AACD26;
-			productRefGroup = 391CAF717834EB569143BA68 /* Products */;
+			mainGroup = C1E1394E609C04A09184DD91;
+			productRefGroup = AC693B054752E6B91FC35C2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C058A7C017735BACB1320782 /* Pods */,
-				F39714E4534F4D110775FE53 /* Pods-DTFormMenuController */,
-				7E6238EDF115A5C674CDCC05 /* Pods-DTFormMenuController-DTFormMenuController */,
+				F42F1258DF16A262CC28FCF8 /* Pods */,
+				299D35E50E47670FEAA2BD66 /* Pods-DTFormMenuController */,
+				2D93BE17777623891E5A015E /* Pods-DTFormMenuController-DTFormMenuController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		018FE4F150EA26C5D7D494C4 /* Resources */ = {
+		F707612BF007558EF68C8EB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,93 +307,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C2BDFC3B1E5E23B3273E5C2 /* Sources */ = {
+		7EFEA18D168E67B9BA4B1422 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7841FFED8200EFD0220230EB /* DTBaseFormObject.m in Sources */,
+				F675C7981C08F951048638D8 /* DTBaseIcon.m in Sources */,
+				E19747745052564BA4BEDBF5 /* DTFormMenuViewController.m in Sources */,
+				0829A8B1FA3F7323858A5F88 /* DTFormViewController.m in Sources */,
+				E5F9A005050F7D06847B09A4 /* DTPreviousIcon.m in Sources */,
+				3E6531B2297EC9EEAB264583 /* Pods-DTFormMenuController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCDA15698C2760B20F9DF8C9 /* Sources */ = {
+		B33EE70F74D7B8D750C5CD88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12854497E1C23527D59A1FAA /* Pods-dummy.m in Sources */,
+				7B59BD8FBD698C82DB82E01F /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED6564F360DCF6681C9F2385 /* Sources */ = {
+		D3CA7F2997ED49397663A878 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BB1669235B597BD354620E /* DTBaseFormObject.m in Sources */,
-				93799A6DF258C37236A33151 /* DTBaseIcon.m in Sources */,
-				38E672B561EC89B75E8E106A /* DTFormMenuViewController.m in Sources */,
-				7C032A4F7F5DF576E44F8C34 /* DTFormViewController.m in Sources */,
-				E122BA49CCCEAE0F26106964 /* DTPreviousIcon.m in Sources */,
-				8F7346DC088B21557F24190B /* Pods-DTFormMenuController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5FC33A51DFB7525409D00DB1 /* PBXTargetDependency */ = {
+		A8B51AD0D5E3DB5FEBC917F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DTFormMenuController-DTFormMenuController";
-			target = 7E6238EDF115A5C674CDCC05 /* Pods-DTFormMenuController-DTFormMenuController */;
-			targetProxy = AE3679768338AB9C7F1E94BD /* PBXContainerItemProxy */;
+			target = 2D93BE17777623891E5A015E /* Pods-DTFormMenuController-DTFormMenuController */;
+			targetProxy = A2A3BA547791E245B107016E /* PBXContainerItemProxy */;
 		};
-		B59711710C189D7517B00577 /* PBXTargetDependency */ = {
+		F739B5DA9F5A74AC1F8C0688 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DTFormMenuController";
-			target = F39714E4534F4D110775FE53 /* Pods-DTFormMenuController */;
-			targetProxy = 8A08F45754549478B65E8EF7 /* PBXContainerItemProxy */;
+			target = 299D35E50E47670FEAA2BD66 /* Pods-DTFormMenuController */;
+			targetProxy = 1C0A0B792F2694C37483D482 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4B0D9EEEE68B888EA5B1E886 /* Debug */ = {
+		20CACC128A2B2437F00A5B5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0AE337BE91037694F7F97A2 /* Pods-DTFormMenuController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DTFormMenuController/Pods-DTFormMenuController-prefix.pch";
+				PRODUCT_NAME = DTFormMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		30142E1517629A59358B67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B89C7B1A652B64CA87B124 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		510BF6EF1E24E47932A7B1F3 /* Release */ = {
+		650A013F83069D7B0C1DA05B /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DTFormMenuController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		62AA59DAE218BC4BDDC4B9D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DTFormMenuController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6F5B2CD7CA2998181AD824F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A9E3CB34AFE8D3EC311BF96 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0BC5058AFD256C79C7F0009C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -407,41 +396,34 @@
 			};
 			name = Release;
 		};
-		7056519FB46CC7E22DECC429 /* Release */ = {
+		74970A2D522889D4264D7C37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC7710B831D7E240109A9F1 /* Pods-DTFormMenuController-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DTFormMenuController/Pods-DTFormMenuController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		9688CE95E6819A3AD122D4E6 /* Debug */ = {
+		931C7B88E59257D6CA165E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DTFormMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E415065000858281A1FBE2FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -480,32 +462,50 @@
 			};
 			name = Debug;
 		};
-		C2CD7AC9D898428E6464CF42 /* Release */ = {
+		ECB6D1C30E23A980989AE400 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0AE337BE91037694F7F97A2 /* Pods-DTFormMenuController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED17A20D4F7F7FB3E219121F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC7710B831D7E240109A9F1 /* Pods-DTFormMenuController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-DTFormMenuController/Pods-DTFormMenuController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E03F9E0C02742D52E283645C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E9C1EEE1A649D9B2E43D208 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -515,43 +515,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CDE4AA098B5270522189208 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		2E716F15B8AABD4760F873E4 /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E03F9E0C02742D52E283645C /* Debug */,
-				6F5B2CD7CA2998181AD824F7 /* Release */,
+				ED17A20D4F7F7FB3E219121F /* Debug */,
+				74970A2D522889D4264D7C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C6C1D2FC9128EA437B70FAA /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController-DTFormMenuController" */ = {
+		A6A4F0EB2AE5A3ECF9E2222D /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62AA59DAE218BC4BDDC4B9D7 /* Debug */,
-				510BF6EF1E24E47932A7B1F3 /* Release */,
+				30142E1517629A59358B67A6 /* Debug */,
+				650A013F83069D7B0C1DA05B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73AF10B1E092FDA659901D90 /* Build configuration list for PBXProject "Pods" */ = {
+		C268ED7DBCF569EBF64644C3 /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController-DTFormMenuController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9688CE95E6819A3AD122D4E6 /* Debug */,
-				7056519FB46CC7E22DECC429 /* Release */,
+				20CACC128A2B2437F00A5B5B /* Debug */,
+				931C7B88E59257D6CA165E15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		823A0526F11658DB671D1F3F /* Build configuration list for PBXNativeTarget "Pods-DTFormMenuController" */ = {
+		D448541050F7CC5C4A4B243D /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B0D9EEEE68B888EA5B1E886 /* Debug */,
-				C2CD7AC9D898428E6464CF42 /* Release */,
+				E415065000858281A1FBE2FD /* Debug */,
+				ECB6D1C30E23A980989AE400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5FDD83FD801A84652E8829CB /* Project object */;
+	rootObject = 1BDCA8B1DA185194E744BE4F /* Project object */;
 }
