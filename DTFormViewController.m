@@ -19,6 +19,7 @@
     DTFormMenuViewController *formMenu;
     NSArray *objects;
     BOOL hasFormMenu;
+    BOOL viewDidLoad;
 }
 
 
@@ -28,6 +29,12 @@
     [super viewDidLoad];
     
     [self registerForKeyboardNotifications];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	viewDidLoad = YES;
 }
 
 - (void)setFormObjects:(NSArray *)formObjects {
@@ -52,6 +59,10 @@
         formMenu.delegate = self;
         [self.view addSubview:formMenu.view];
         hasFormMenu = YES;
+    }
+    
+    if (viewDidLoad) {
+    	[self.collectionView reloadData];
     }
 }
 
