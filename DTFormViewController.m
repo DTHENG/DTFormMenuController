@@ -190,6 +190,7 @@
 
 - (BOOL)inputsBeforePosition:(NSIndexPath *)position {
     NSIndexPath *path = [self indexOfInputBeforePosition:position];
+    NSLog(@"path %@", path);
     return path != nil;
 }
 

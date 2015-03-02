@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_DTFormMenuController
 #define COCOAPODS_VERSION_MAJOR_DTFormMenuController 0
 #define COCOAPODS_VERSION_MINOR_DTFormMenuController 1
-#define COCOAPODS_VERSION_PATCH_DTFormMenuController 1
+#define COCOAPODS_VERSION_PATCH_DTFormMenuController 2
 
