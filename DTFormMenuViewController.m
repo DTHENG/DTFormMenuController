@@ -55,14 +55,14 @@ static int height = 50;
     
     switch (indexPath.row) {
         case 0: {
-            DTPreviousIcon *prev = [[DTPreviousIcon alloc] initWithColors:[UIColor whiteColor] foreground:[_delegate formMenuView:self selectable:(int) indexPath.row] ? [_delegate formMenuView:self foregroundColor:1.f] : [_delegate formMenuView:self inactiveColor:1.f] frame:CGRectMake(12, 12, 23, 23)];
+            DTPreviousIcon *prev = [[DTPreviousIcon alloc] initWithColors:[_delegate formMenuView:self backgroundColor:1.f] foreground:[_delegate formMenuView:self selectable:(int) indexPath.row] ? [_delegate formMenuView:self foregroundColor:1.f] : [_delegate formMenuView:self inactiveColor:1.f] frame:CGRectMake(12, 12, 23, 23)];
             prev.backgroundColor = [UIColor clearColor];
             prev.tag = 2;
             [content addSubview:prev];
             break;
         }
         case 1: {
-            DTPreviousIcon *prev = [[DTPreviousIcon alloc] initWithColors:[UIColor whiteColor] foreground:[_delegate formMenuView:self selectable:(int) indexPath.row] ? [UIColor blackColor] : [UIColor lightGrayColor] frame:CGRectMake(12, 12, 23, 23)];
+            DTPreviousIcon *prev = [[DTPreviousIcon alloc] initWithColors:[_delegate formMenuView:self backgroundColor:1.f] foreground:[_delegate formMenuView:self selectable:(int) indexPath.row] ? [_delegate formMenuView:self foregroundColor:1.f] : [_delegate formMenuView:self inactiveColor:1.f] frame:CGRectMake(12, 12, 23, 23)];
             prev.backgroundColor = [UIColor clearColor];
             prev.transform = CGAffineTransformRotate(prev.transform, M_PI);
             prev.tag = 2;
