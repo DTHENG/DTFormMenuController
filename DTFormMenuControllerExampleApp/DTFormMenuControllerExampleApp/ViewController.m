@@ -37,15 +37,15 @@
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
 }
 
-+ (UIColor *)getBackgroundColor {
+- (UIColor *)getBackgroundColor {
     return [UIColor blackColor];
 }
 
-+ (UIColor *)getInactiveColor {
+- (UIColor *)getInactiveColor {
     return [UIColor darkGrayColor];
 }
 
-+ (UIColor *)foregroundColor {
+- (UIColor *)getForegroundColor {
     return [UIColor whiteColor];
 }
 

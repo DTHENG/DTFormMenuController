@@ -7,14 +7,98 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- Start by creating a new class that extends the __DTFormViewController__:
+
+_ViewController.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ViewController.h)
+```obj-c
+#import "DTFormViewController.h"
+
+@interface ViewController : DTFormViewController
+
+@end
+```
+- Then in the implementation file you'll initialize the form with its "objects":
+
+_ViewController.m_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ViewController.m)
+```obj-c
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	[super setFormObjects:@[
+		
+		// Array of objects that extend DTBaseFormObject
+		
+	]];
+}
+```
+> __NOTE__ you dont have to execute _setFormObjects_ in the _viewDidLoad_ method, it can be called from anywhere.
+
+- Now that you have your view controller setup you will need to open or create a __Main.storyboard__ file.
+- In the Main storyboard add a new _UICollectionViewController_. 
+- Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to __DTFormMenuViewController__.
+- Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- In the view controller set the _UICollectionViewCell's_ __Reusable Identifier__ to __"content"__.
+- Form objects are any class that extends __DTBaseFormObject__.
+
+_ExampleTextInputFormObject.h_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ExampleTextInputFormObject.h)
+```obj-c
+#import "DTBaseFormObject.h"
+
+@interface ExampleTextInputFormObject : DTBaseFormObject
+
+- (ExampleTextInputFormObject *)initWithPlaceholder:(NSString *)placeholderText onChanged:(void (^)(NSString *text))onChangedBehavior;
+
+@end
+```
+- In the implementation of the new class the only required override method is:
+
+_ExampleTextInputFormObject.m_ [view file](DTFormMenuControllerExampleApp/DTFormMenuControllerExampleApp/ExampleTextInputFormObject.m#L18)
+```obj-c
+- (UICollectionViewCell *)toCollectionViewCell:(UICollectionView *)collectionView :(NSIndexPath *)indexPath {
+
+	UICollectionViewCell *exampleCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"example" forIndexPath:indexPath];
+	
+	// Customize cell
+	
+	return exampleCell;
+}
+```
+- Before we can run the code we'll need to add the _ViewController_ to __Main.storyboard__.
+- In the Main storyboard add a new _UICollectionViewController_. 
+- Find the new view controllers _Identity inspector_ set the _Custom Class_ and _Storyboard ID_ fields to the name of your class.
+- Now in the view controller's _Collection View Flow Layout_ set the __Min Spacing__ values to __0__.
+- In the view controller set the _UICollectionViewCell's_ __Reusable Identifier__ to __"example"__.
+- Done!
 
 ## Installation
 
 DTFormMenuController is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod 'DTFormMenuController', '0.1.1'
+	pod 'DTFormMenuController', '0.1.4'
+
+#### Dont have a Podfile? 
+
+You can easily update your project to use CocoaPods:
+
+- Install the CocoaPods library:
+```sh
+sudo gem install cocoapods
+```
+- Go to the directory where your __.xcodeproj__ file is
+- Create a new file called __Podfile__
+- Update _Podfile_ with:
+```ruby
+platform :ios, deployment_target: '8.0'
+
+pod 'DTFormMenuController', '0.1.4'
+```
+- Now run this command:
+```sh
+pod install
+```
+- From now on only open the __.xcworkspace__ file in your project _NOT_ __.xcodeproj__
+- Done!
 
 ## Author
 
