@@ -46,7 +46,7 @@
 - (void)onObjectsReady {
     for (NSUInteger i = 0; i < objects.count; i++) {
         if ([objects[i] numInputFields] > 0) {
-            [objects[i] selectedInputField:^(int index) {
+            [objects[i] selectedInputField:^(NSUInteger index) {
                 if (formMenu) {
                     [formMenu.collectionView reloadData];
                 }
