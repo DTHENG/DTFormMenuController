@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DTFormMenuController"
-  s.version          = "0.1.4"
+  s.version          = "0.1.8"
   s.summary          = "Utility for creating functional forms in iOS"
   s.description      = <<-DESC
 # DTForm Menu Controller
@@ -29,7 +29,4 @@ Utility for creating functional forms in iOS.
     'DTFormMenuController' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Classes/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

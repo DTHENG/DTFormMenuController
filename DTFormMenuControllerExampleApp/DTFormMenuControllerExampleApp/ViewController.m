@@ -12,8 +12,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 
     [super setFormObjects:@[
                             [[SpacerFormObject alloc] initWithOnSelected:nil],

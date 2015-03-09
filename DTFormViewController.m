@@ -19,6 +19,8 @@
     DTFormMenuViewController *formMenu;
     NSArray *objects;
     BOOL hasFormMenu;
+    BOOL viewDidLoad;
+	UIActivityIndicatorView *indicator;	
 }
 
 
@@ -28,6 +30,18 @@
     [super viewDidLoad];
     
     [self registerForKeyboardNotifications];
+    
+            indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        indicator.center = CGPointMake(self.view.frame.size.width / 2, (self.view.frame.size.height / 2) - 40);
+        indicator.color = [self getForegroundColor];
+        [indicator startAnimating];
+        [self.view addSubview:indicator];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	viewDidLoad = YES;
 }
 
 - (void)setFormObjects:(NSArray *)formObjects {
@@ -39,7 +53,7 @@
 - (void)onObjectsReady {
     for (NSUInteger i = 0; i < objects.count; i++) {
         if ([objects[i] numInputFields] > 0) {
-            [objects[i] selectedInputField:^(int index) {
+            [objects[i] selectedInputField:^(NSUInteger index) {
                 if (formMenu) {
                     [formMenu.collectionView reloadData];
                 }
@@ -52,6 +66,13 @@
         formMenu.delegate = self;
         [self.view addSubview:formMenu.view];
         hasFormMenu = YES;
+    }
+    
+    [indicator stopAnimating];
+    indicator.hidden = YES;
+    
+    if (viewDidLoad) {
+    	[self.collectionView reloadData];
     }
 }
 
