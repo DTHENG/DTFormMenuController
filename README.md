@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/DTFormMenuController.svg?style=flat)](http://cocoadocs.org/docsets/DTFormMenuController)
 [![Platform](https://img.shields.io/cocoapods/p/DTFormMenuController.svg?style=flat)](http://cocoadocs.org/docsets/DTFormMenuController)
 
+![gif](https://s3.amazonaws.com/dtheng/DTFormViewController.gif)
+
 ## Usage
 
 - Start by creating a new class that extends the __DTFormViewController__:
