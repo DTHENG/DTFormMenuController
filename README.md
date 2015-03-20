@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/DTFormMenuController.svg?style=flat)](http://cocoadocs.org/docsets/DTFormMenuController)
 [![Platform](https://img.shields.io/cocoapods/p/DTFormMenuController.svg?style=flat)](http://cocoadocs.org/docsets/DTFormMenuController)
 
-<img src="https://s3.amazonaws.com/dtheng/DTFormViewController.gif" style="max-width:200px"/>
+<img src="https://s3.amazonaws.com/dtheng/DTFormViewController.gif" style="width:200px"/>
 
 ## Usage
 
